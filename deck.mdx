@@ -1,23 +1,98 @@
 import {
-  CodeSurfer,
-  CodeSurferColumns,
-  Step,
-} from "code-surfer";
-import {
   nightOwl,
 } from "@code-surfer/themes";
-import { Head } from "mdx-deck";
+import { Image, Head } from "mdx-deck";
 
 export const theme = nightOwl;
 
 <Head>
-  <title>Headless UI components</title>
+  <title>WAI-ARIA React components</title>
 </Head>
 
 # Hello 👋
 
 <p style="text-align: center">
-  Headless UI components and why you should use them in React.
+  How to simply build UI components in React according to WAI-ARIA ?
 </p>
 
 ---
+<h1 style="text-align: center">What is WAI-ARIA ?</h1>
+
+<p style="text-align: center; padding: 20px">
+  WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities.
+</p>
+
+---
+
+<h1 style="text-align: center">WAI-ARIA Authoring Practices 1.1</h1>
+
+<p style="text-align: center;padding: 20px;">
+  WAI-ARIA Authoring Practices 1.1 This document provides readers with an understanding of how to use WAI-ARIA 1.1 to create accessible rich internet applications.
+</p>
+
+---
+
+<h1 style="text-align: center">Why is it important to use these principles?</h1>
+
+<ul>
+  <li>Possibility for persons with disabilities to use the application</li>
+  <li>Meeting legal requirements for public use applications</li>
+</ul>
+
+---
+
+<Image src="https://raw.githubusercontent.com/ErnestTeluk/WAI-ARIA-React-components/main/images/1.png" style="background-image: contain; background-size: 800px auto;" />
+
+---
+
+<Image src="https://raw.githubusercontent.com/ErnestTeluk/WAI-ARIA-React-components/main/images/2.png" style="background-image: contain; background-size: 800px auto;" />
+
+---
+
+<Image src="https://github.com/ErnestTeluk/WAI-ARIA-React-components/blob/main/images/3.png?raw=true" style="background-image: contain; background-size: 800px auto;" />
+
+---
+
+<h1 style="text-align: center; margin: 10px;">How to check if our application is WAI-ARIA compliant ?</h1>
+
+<ul>
+  <li>Lighthouse</li>
+  <li>Audits</li>
+</ul>
+
+---
+
+<Image src="https://github.com/ErnestTeluk/WAI-ARIA-React-components/blob/main/images/4.png?raw=true" style="background-image: contain; background-size: 800px auto;" />
+
+---
+
+<Image src="https://github.com/ErnestTeluk/WAI-ARIA-React-components/blob/main/images/5.png?raw=true" style="background-image: contain; background-size: 800px auto;" />
+
+---
+
+<h1 style="text-align: center">Are only developers supposed to know the principles of WAI-ARIA ?</h1>
+
+---
+
+<Image src="https://github.com/ErnestTeluk/WAI-ARIA-React-components/blob/main/images/6.png?raw=true" style="background-image: contain; background-size: 800px auto;" />
+
+---
+
+<h1 style="text-align: center">How to simply build UI components in React according to WAI-ARIA ?</h1>
+
+<ul style="margin: 0 20px">
+  <li><a href="https://react-spectrum.adobe.com/react-aria/" target="_blank">React Aria</a> - A library of React Hooks that provides accessible UI primitives for your design system.</li>
+  <li><a href="https://www.downshift-js.com/" target="_blank">Downshift 🏎</a> - Primitives to build simple, flexible, WAI-ARI compliant React autocomplete/combobox or select dropdown components.</li>
+  <li><a href="https://www.radix-ui.com/" target="_blank">Radix</a> - Unstyled, accessible components for building high‑quality design systems and web apps in React.</li>
+  <li><a href="https://www.npmjs.com/package/eslint-plugin-jsx-a11y" target="_blank">eslint-plugin-jsx-a11y</a> - This plugin does a static evaluation of the JSX to spot accessibility issues in React apps</li>
+</ul>
+
+---
+
+<h1 style="text-align: center">Examples</h1>
+
+<ul>
+  <li><a href="https://codesandbox.io/s/downshift-select-emwoti" target="_blank">Downshift - Select</a></li>
+  <li><a href="https://codesandbox.io/s/react-aria-breadcrumbs-8yuxz6?file=/src/App.js" target="_blank">React Aria - Breadcrumbs</a></li>
+  <li><a href="https://codesandbox.io/s/radix-dialog-fj19h0?file=/src/App.js" target="_blank">Radix - Dialog</a></li>
+</ul>
