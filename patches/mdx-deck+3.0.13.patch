@@ -19,7 +19,7 @@ index 7d8c2f8..5aaf1c6 100644
  const src = process.env.__SRC__
 
  module.exports = {
-+  pathPrefix: "/headless-ui-components",
++  pathPrefix: "/WAI-ARIA-React-components",
    plugins: [
      {
        resolve: 'gatsby-theme-mdx-deck',
