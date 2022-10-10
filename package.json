@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx --path-prefix",
+    "postinstall": "patch-package",
+    "publish-deck": "gh-pages -d public"
+  },
+  "devDependencies": {
+    "code-surfer": "3.1.0",
+    "gh-pages": "4.0.0",
+    "mdx-deck": "3.0.13",
+    "patch-package": "6.4.7"
+  },
+  "name": "headless-ui-components"
+}
